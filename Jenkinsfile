@@ -7,6 +7,7 @@ pipeline {
                 nodejs('NodeJs18.3.0') {
                     sh 'node -v'
                     sh 'npm -v'
+                    echo "Hello Kaew"
                 }
             }
         }
